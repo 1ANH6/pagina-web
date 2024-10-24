@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 body 
 {
     background: linear-gradient(to bottom, #f0f0f0, #d9d9d9);
 }
+=======
+>>>>>>> 558cbebd47dcba7f5f334126a4893ffd66657feb
 .titulo
 {
     font-family: 'Arial', sans-serif;
@@ -41,6 +44,7 @@ body
 }
 .info
 {
+<<<<<<< HEAD
     background-color: #d5d9da;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(204, 190, 190, 0.1);
@@ -72,6 +76,17 @@ body
     margin-right: 15px;
     border-radius: 4px;
 }
+=======
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+>>>>>>> 558cbebd47dcba7f5f334126a4893ffd66657feb
 /* Slider */
 .slider 
 {
