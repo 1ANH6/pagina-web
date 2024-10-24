@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Programacion competitiva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 </head>
 <body>
-    
+    <h1 class="titulo">Programacion competitiva</h1>
+    <br>
+    <h2 class="subtitulo">¿Qué es la programación competitiva?</h2>
+    <section class="slider">
+      <div class="swiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="info">
+                      <p class="texto">
+                          La programación competitiva es un deporte en el que los participantes resuelven problemas algorítmicos dentro de un límite de tiempo utilizando un lenguaje de programación de su elección. Pone a prueba las habilidades para resolver problemas, el conocimiento de algoritmos y la capacidad para escribir código eficiente.
+                      </p>
+                      <p class="texto">
+                          La programación competitiva es un campo que requiere un profundo conocimiento de algoritmos y estructuras de datos, así como la capacidad de pensar de forma lógica y resolver problemas de forma eficiente. Participar en estos concursos de programación permite a las personas poner a prueba sus habilidades frente a sus compañeros y también brinda la oportunidad de aprender de los demás. Ayuda a mejorar las habilidades de resolución de problemas, lo que puede resultar valioso en diversas carreras, como el desarrollo de software, la ciencia de datos y la investigación.
+                      </p>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="contenedor">
+                    <img src="https://icpc.global/regionals/abouticpc/foundationlogo.png" alt="Descripción de la imagen" class="imagen">
+                    <div class="texto-contenido">
+                        <h3 class="subsubtitulo">ICPC</h3>
+                        <p class="texto">
+                          La Competición Internacional Universitaria de Programación (en inglés International Collegiate Programming Contest, abreviado ICPC) es una competición anual de programación y algorítmica entre universidades de todo el mundo, donde prima el trabajo en equipo, el análisis de problemas y el desarrollo rápido de software.
+                        </p>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+      </div>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+      direction: 'horizontal',
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 6000,
+      }
+    });
+    </script>
 </body>
 </html>
